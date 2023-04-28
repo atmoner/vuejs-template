@@ -1,0 +1,14 @@
+{
+  "name": "vuejs-template",
+  "version": "0.0.1",
+  "description": "A Vue CLI preset for quickly starting a web extension with webpack, Vue and more!",
+  "repository": "https://github.com/atmoner/vuejs-template.git",
+  "author": "atmon3r",
+  "license": "MIT",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "standard-version": "^6.0.1"
+  }
+}
