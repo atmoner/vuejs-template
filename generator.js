@@ -14,7 +14,7 @@ module.exports = api => {
   if (api.options.cosmjs) {
     api.extendPackage({
       dependencies: {
-        cosmjs: '^0.20.0',
+        '@cosmjs/stargate': '^0.30.1',
       },
     });
   }  
