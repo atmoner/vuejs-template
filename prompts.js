@@ -4,4 +4,9 @@ module.exports = [
     type: 'confirm',
     message: 'Install axios?',
   },
+  {
+    name: 'cosmjs',
+    type: 'confirm',
+    message: 'Install cosmjs?',
+  },  
 ];
