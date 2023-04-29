@@ -10,4 +10,12 @@ module.exports = api => {
       },
     });
   }
+
+  if (api.options.cosmjs) {
+    api.extendPackage({
+      dependencies: {
+        cosmjs: '^0.20.0',
+      },
+    });
+  }  
 };
